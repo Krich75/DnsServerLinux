@@ -1,0 +1,2 @@
+# DnsServerLinux
+/etc/resolv.conf

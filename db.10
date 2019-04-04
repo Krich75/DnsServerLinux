@@ -1,0 +1,15 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	adsys.univ-paris13.fr. root.adsys.univ-paris13.fr. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	adsys.univ-paris13.fr.
+83	IN	PTR	DNS.adsys.univ-paris13.fr.
+70	IN	PTR	Email.adsys.univ-paris13.fr.
+80	IN	PTR	Client.adsys.univ-paris13.fr.
